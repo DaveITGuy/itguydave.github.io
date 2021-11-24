@@ -1,0 +1,63 @@
+/*
+some global designs.....
+some global stylings....
+I honestly don't know...
+*/
+@media only screen and (max-width: 1600px) {
+  /*
+some box-drawing bs...
+maybe a few colors....
+can't forget the custom styles to make our UI/UX "DA BOMB"...
+and Bob's your uncle! I'm DONE!
+*/
+}
+
+@media only screen and (max-width: 1400px) {
+  /*
+some box-drawing bs...
+maybe a few colors....
+can't forget the custom styles to make our UI/UX "DA BOMB"...
+and Bob's your uncle! I'm DONE!
+*/
+}
+
+@media only screen and (max-width: 1200px) {
+  /*
+some box-drawing bs...
+maybe a few colors....
+can't forget the custom styles to make our UI/UX "DA BOMB"...
+and Bob's your uncle! I'm DONE!
+*/
+}
+
+@media only screen and (max-width: 1000px) {
+  /*
+some box-drawing bs...
+maybe a few colors....
+can't forget the custom styles to make our UI/UX "DA BOMB"...
+and Bob's your uncle! I'm DONE!
+*/
+}
+
+@media only screen and (max-width: 800px) {
+  /*
+some box-drawing bs...
+maybe a few colors....
+can't forget the custom styles to make our UI/UX "DA BOMB"...
+and Bob's your uncle! I'm DONE!
+*/
+}
+
+@media only screen and (max-width: 600px) {
+  /*
+    Start panicking, because this is a kinda small screensize...
+    Where the heck are we supposed to put the fancy weather map?
+    */
+}
+
+@media only screen and (max-width: 400px) {
+  /*
+    Are screens this size even still in use? What are you looking at this
+    site on!? A fridge screen!? USE A COMPUTER, YA BOZO!
+    */
+} ;

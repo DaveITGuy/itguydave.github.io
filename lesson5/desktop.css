@@ -1,0 +1,82 @@
+@media only screen and (min-width: 1200px) {
+  #motto {
+    text-align: center;
+  }
+  #hero-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url('storm.jpg');
+    height: 500px;
+  }
+
+  #weather-summary {
+    background: none;
+    color: yellow;
+    border: white;
+    height: 50px;
+    width: 100px;
+    padding-left: 50px;
+    padding-top: 20px;
+  }
+
+  #title {
+    font-size: 2em;
+    color: red;
+  }
+
+  #five-day {
+    background: none;
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto auto;
+    background-color: grey;
+  }
+
+  #five-day-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+
+  .weather-icon {
+    height: 50px;
+    width: 50px;
+  }
+
+  #Mon {
+    height: 100px;
+  }
+
+  #Tue {
+    height: 50px;
+  }
+
+  #Wed {
+    height: 50px;
+  }
+
+  #Thu {
+    height: 50px;
+  }
+
+  #Fri {
+    height: 50px;
+  }
+
+  #article {
+    background-color: grey;
+    color: #feca57;
+  }
+
+  #map-img {
+    height: 200px;
+    width: 300px;
+  }
+
+  #map {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  #sm-images {
+    height: 50px;
+  }
+}

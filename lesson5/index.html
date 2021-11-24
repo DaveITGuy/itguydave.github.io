@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P&F Weather Site</title>
+    <link href="./mobile.css" rel="stylesheet" type="text/css"/>
+    <link href="./tablet.css" rel="stylesheet" type="text/css"/>
+    <link href="./desktop.css" rel="stylesheet" type="text/css"/>
+</head>
+<header>
+    <div class="header">
+        <img src="cloud.png" width="100px" height="100px" id="icon">
+        <p id="motto">Preston and Fish Haven Weather - We know wet's up!</p>
+    </div>
+    <div class="navbar relative" >
+        <div class="logo">
+           <a id="menu-icon">&#9776;</a>
+        </div>
+        <!-- Navbar links -->
+        <nav class="main-nav ">
+           <!-- These float to the left -->
+           <ul>
+              <li>
+                 <a href="#">Home</a>
+              </li>
+              <li class="active">
+                 <a href="#">Preston</a>
+              </li>
+              <li>
+                 <a href="#">Fish Haven</a>
+              </li>
+              <li>
+                <a href="#">Storm Center</a>
+             </li>
+             <li>
+                <a href="#">Gallery</a>
+             </li>
+            </ul>
+        </nav>
+     </div>
+</header>
+<body>
+    
+    <main>
+        <div>
+            <p id="title">Preston, Idaho</p>
+            <p id="party">Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</p>
+            <div id="hero-img">
+                <div id="weather-summary">
+                    <p>Today's weather forcast calls for scattered showers of chocolate milk, and an overcasting of cotton candy clouds.</p>
+                    <br>
+                    <p>Tomorrow, it will be cloudy with a chance of meatballs.</p>
+                </div>                
+                </div>
+            </div>
+        </div>
+        <p id="five-day-title">Five Day Forecast</p>
+        <div id="five-day">
+            <div id="Mon">
+                Mon
+                <br/>
+                <img class="weather-icon" src="rain-icon.jpg"/>
+            </div>
+            <div id="Tue">
+                Tue
+                <br/>
+                <img class="weather-icon" src="cloud-icon.jpg"/>
+            </div>
+            <div id="Wed">
+                Wed
+                <br/>
+                <img class="weather-icon" src="sunny-icon.png"/>
+            </div>
+            <div id="Thu">
+                Thu
+                <br/>
+                <img class="weather-icon" src="storm-icon.jpg"/>
+            </div>
+            <div id="Fri">
+                Fri
+                <br/>
+                <img class="weather-icon" src="snow-icon.png"/>
+            </div>
+        </div>
+        <div>
+            <div id ="article">
+                MEATBALLS FALLING FROM THE - SIGNAL LOST....
+            </div>
+            <div id="wut">
+                Definitely something here, too...
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        
+        <div id="map">
+            <img id="map-img" src="weathermapphoto.png"/>
+            <div id="contact">
+                <p>Location: Preston, ID</p>
+                <p>If you see a weather anomaly, please contact me at 314-159-2653</p>
+                <p>Or you can email me at weather@pnfweather.com</p>
+                <img id="sm-images" src="sm-icons.jpg"/>
+            </div>
+        </div>
+        <p id="date"></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

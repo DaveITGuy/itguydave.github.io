@@ -1,0 +1,109 @@
+.navbar {
+  width: 100%;
+  background-color: #2e86de;
+}
+
+.header {
+  width: 100%;
+  background-color: #54a0ff;
+  display: flex;
+}
+
+#icon {
+  float: center;
+}
+
+.logo {
+  background-color: #01a3a4;
+  height: 35px;
+}
+
+#menu-icon {
+  float: right;
+  padding-right: 10px;
+  padding-top: 5px;
+  cursor: pointer;
+}
+
+.main-nav {
+  max-height: 0px;
+  overflow: hidden;
+}
+
+.expanded {
+  max-height: 10em;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+  text-align: center;
+}
+
+li {
+  width: 100%;
+}
+li:hover {
+  background-color: #feca57;
+}
+
+.active {
+  background-color: #feca57;
+}
+
+#motto {
+  color: #feca57;
+  font-size: 3em;
+  font-family: 'Lobster', cursive;
+}
+
+#article {
+  width: 100%;
+  text-align: center;
+  border-style: dashed;
+  margin: 20px;
+  background-color: grey;
+}
+
+#wut {
+  width: 100%;
+  text-align: center;
+  border-style: dashed;
+  margin: 20px;
+  background-color: grey;
+}
+
+#five-day {
+  width: 100%;
+  text-align: center;
+  border-style: dashed;
+  margin: 20px;
+  background-color: grey;
+}
+
+#hero-img {
+  width: 100%;
+  text-align: center;
+  border-style: dashed;
+  margin: 20px;
+  background-color: grey;
+}
+
+#weather-summary {
+  width: 100%;
+  text-align: center;
+  border-style: dashed;
+  margin: 20px;
+  background-color: grey;
+}
+
+#title {
+  width: 100%;
+  text-align: dashed;
+}
+
+.footer {
+  border-style: solid;
+  background-color: #1dd1a1;
+  text-align: center;
+}
